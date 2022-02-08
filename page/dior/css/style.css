@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.vbox{
+    position: relative;
+}
+.vbox .tit{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);    
+    color:#ddd;
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.5;
+}
+.vbox video{
+    width: 100%;
+    height: 100%;
+    min-width: 1600px;
+}
+.sns{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.sns li{
+    font-size: 22px;
+    color: #555;
+    margin-left: 30px;
+    transition: all 0.6s;
+}
+.sns li:hover{
+    color: #333;
+    transform: scale(1.5);
+}
+p{
+    font-size: 200px;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 50px auto;
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mainbn{
+    height: 565px;
+    background-image: url(../images/mainbn.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+    background-position: center 0;
+    margin-bottom: 50px;
+}
+.s1{
+    width: 1600px;
+    margin: 64px auto;
+}
+h3{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+}
+.txt{
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    margin: 10px 0;
+}
+.con1{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+}
+.box{
+   width: 50%;
+   margin-right: 20px;
+   position: relative;
+   overflow: hidden;
+}
+.box:last-child{
+    margin-right: 0;
+}
+.con .over{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: all 1.5s;
+    width: 100%;
+}
+.box img{
+    width: 100%;
+}
+.con .over:hover{
+    opacity: 1;
+}
+.con{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+}
+.con{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    position: relative;
+}
+.mainbn2{
+    height: 565px;
+    background-image: url(../images/miss_dior.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+    background-position: center 0;
+    margin-bottom: 50px;
+}
+
+.subbox video{
+    width: 1900px;
+    height: 565px;
+    margin: 20px 0;
+    text-align: center;
+}
+.txt2{
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.map{
+    height: 400px;
+    background-image: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    position: relative;
+}
+.srch{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);    
+}
+.srch input{
+    display: block;
+    width: 250px;
+    line-height: 50px;
+    border-radius: 50px;
+    padding-left: 15px;
+    border: 1px solid #111;
+}
+.srch .text{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    color:#555;
+    font-family: 'Arial', serif;
+}
+.srch button{
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    top: 0;
+    border: 0;
+    height: 100%;
+    background-color: transparent;
+}
+.srch button img{
+    width: 100%;
+}
+footer .fWrap{
+    display: flex;
+    margin: 50px auto;
+    
+
+}
+footer .fBox{
+    margin-right: 200px;
+}
+footer .fBox:last-child{
+    margin-right: 0;
+}
+
+.go{
+    position: relative; 
+    width: 250px;
+    margin: 50px auto; 
+}
+.go input{
+    display: block;
+    width: 250px;
+    line-height: 50px;
+    border-radius: 50px;
+    padding-left: 15px;
+    border: 1px solid #111;
+}
+.go button{
+    position: absolute;
+    right: 0;
+    width: 25px;
+    top: 0;
+    border: 0;
+    height: 100%;
+    background-color: transparent;
+}
+.gtxt{
+    text-align: center;
+    line-height: 1.6;
+}
+.lang .sub{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.gnb>li:hover .sub{
+    left: 205px;
+    opacity: 1;
+}
+.next{
+    position: relative;
+    width: 250px;
+    margin: 50px auto;
+}
+.fBox h3{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.next .gtxt{
+    text-align: center;
+    font-size: 15px;
+    color: #111;
+}
+.next input{
+    display: block;
+    width: 250px;
+    line-height: 50px;
+    border-radius: 50px;
+    padding-left: 15px;
+    border: 1px solid #111;
+    margin: 20px 0;
+}
+.next button{
+    position: absolute;
+    right: 0;
+    width: 25px;
+    top: 0;
+    border: 0;
+    height: 100%;
+    background-color: transparent;
+}
+.next button img{
+    width: 18px;
+    height: 18px;
+}
+.fmenu{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.fmenu li{
+    margin: 20px 0;
+    text-align: center;
+}
+.fmenu li a{
+    font-size: 15px;
+    color: #111;
+    text-decoration: underline;
+}
+
+
